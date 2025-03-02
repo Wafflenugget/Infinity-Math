@@ -1,0 +1,115 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e; /* Navy blue background */
+    color: #fff; /* White text */
+    margin: 0;
+    padding: 0;
+    position: relative; /* Enable absolute positioning for the image */
+}
+
+/* Position the PNG image at the top-right corner */
+.top-right-image {
+    position: absolute;
+    top: 0px; /* Distance from the top of the page */
+    right: 10px; /* Distance from the right of the page */
+    width: 175px; /* Adjust the size of the image */
+    height: 125px; /* Adjust the size of the image */
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #16213e; /* Darker blue background for header */
+    border-bottom: 3px solid #00ffcc; /* Neon accent border */
+}
+
+/* Navigation styles */
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav table {
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse;
+}
+
+nav td {
+    padding: 10px;
+}
+
+nav a {
+    color: #1FC5D4; /* Neon cyan color for links */
+    text-decoration: none;
+    font-size: 18px; /* Slightly larger text for links */
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00cc99; /* Slightly darker neon on hover */
+}
+
+/* Section styles */
+.grade-section {
+    background-color: #16213e; /* Darker blue for sections */
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for sections */
+}
+
+.hidden {
+    display: none;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #16213e; /* Darker blue background for footer */
+    color: #00ffcc; /* Neon cyan text for footer */
+}
+
+/* Button styles */
+button {
+    background-color: #00ffcc; /* Neon white */
+    color: #1a1a2e; /* Navy blue text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Add padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s, transform 0.3s; /* Animation for hover effect */
+}
+
+button:hover {
+    background-color: #00cc99; /* Darker neon on hover */
+    transform: scale(1.05); /* Slightly larger on hover */
+}
+
+button:focus {
+    outline: none; /* Remove focus outline */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    nav a {
+        font-size: 16px; /* Smaller font for mobile */
+    }
+
+    .grade-section {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    button {
+        font-size: 14px; /* Smaller font for mobile */
+        padding: 8px 12px; /* Smaller button padding */
+    }
+}
